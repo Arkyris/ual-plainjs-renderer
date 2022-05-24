@@ -1,22 +1,19 @@
 {
-  "name": "ual-plainjs-renderer",
-  "version": "0.3.0",
-  "author": {
-    "name": "block.one",
-    "url": "https://block.one/"
-  },
+  "name": "@arkyris/ual-plainjs-renderer",
+  "version": "0.0.1",
   "collaborators": [
     "Chris Allnutt",
-    "Mike Manfredi"
+    "Mike Manfredi",
+    "Arkyris"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:EOSIO/ual-plainjs-renderer.git"
+    "url": "git@github.com/Arkyris/ual-plainjs-renderer.git"
   },
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && tsc --build tsconfig.json",
+    "build": "tsc --build tsconfig.json",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "test": "jest",
     "prepare": "yarn build"
